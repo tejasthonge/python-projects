@@ -1,0 +1,2 @@
+  # if massage == "q":
+      #    break

@@ -9,7 +9,10 @@ from instabot import Bot
 
 bot =Bot()  #using Bot finction we can can call the mothe method
 
-bot.login(username ="amar_rajendra_thonge",passwor="*****")
+if bot.login(username="amarthonge", password="******"):
+    print("Login successful!")
+else:
+    print("Login failed. Check your credentials or handle the failure appropriately.")
 bot.follow('code_8055')
 
 

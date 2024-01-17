@@ -3,7 +3,8 @@
 import qrcode as qr
 
 #img = qrcode.make()
+url = input("enter the url :")
 
-img =qr.make("https://www.linkedin.com/in/tejasthonge/")
-img.save("tejas_linkdin.png")
+img =qr.make(url)
+img.save("qrcode.png")
 

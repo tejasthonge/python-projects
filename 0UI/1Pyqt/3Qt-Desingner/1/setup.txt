@@ -1,0 +1,13 @@
+
+
+instaal the pyqtds tools-->
+pip install pyqt_tools
+
+then run it opent the designer sof tool--->
+pyqt5-tools designer
+
+then create the main window or widgeet and save saved file is .ui file 
+then run -->
+pyuic5 -x <name.ui> -o test.py
+
+it conver the .py file and then okk 

@@ -44,7 +44,13 @@ def window():
    label2.setText ("I'm Tejas Rajendra Thonge")
    label2.move(50,50) 
 
-   win.show()
+   b1 =QtWidgets.QPushButton(win)
+   b1.setText("ok")
+   b1.move(50,80)
+
+
+   win.show()##to disply
+
 
    sys.exit(app.exec_())
 
